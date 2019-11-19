@@ -18,7 +18,7 @@ Misschien is er nog één voor telefonie, maar dat gebruik ik niet.
 De Genexis SFP module werkte niet in de Mikrotik. Ik heb het opgelost door de SPF in een HP1920-24G (mijn LAN switch met 4 SFP slots) en een SFP direct attach kabel van de switch naar de mikrotik te leggen. Op de switch dien je dan wel beide aansluitingen te configureren om VLAN 100 en 101 tagged te gebruiken. In plaats van een switch is een mediaconvertor (SFP<->RJ45) ook mogelijk. Deze direct attach SFP kabel is aangesloten op de SFP/Combo1 poort. Mocht de Mikrotik later wel de SFP gaan ondersteunen, dan kan ik hem rechtstreeks plaatsen zonder configuratie aanpassingen. Verder gebruik ik ether7 als de verbinding naar mijn HP switch, later wil ik dit doen via de SFP+ poort (10Gb/s) als ik een switch heb die dit aan kan (en het zinvol is). De AMINO STBs zijn aangesloten op ether4 en ether5.
 
 # Netwerkinrichting
-Ik heb mijn netwerk als volgt ingericht.
+In deze configuratie ga ik uit van de volgende inrichting:
 
 | VLAN | Netwerk | Beschrijving |
 | --- | --- | --- |
