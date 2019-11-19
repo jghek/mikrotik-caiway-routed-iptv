@@ -30,7 +30,7 @@ In deze configuratie ga ik uit van de volgende inrichting:
 Bij upgrade naar een nieuwe RouterOS heb ik er voor gekozen ook de NTP Server package te installeren. Hiermee is de router ook een NTP Server. In de configuratie zitten er verwijzingen naar.
 
 # De configuratie
-Hieronder volgt de configuratie met uitleg. Je kunt de config ook zonder commentaar [openen](basic-191118.rsc).
+Hieronder volgt de configuratie met uitleg. Je kunt de config ook direct [openen](basic-191118.rsc).
 
 ```
 # Het maken van de L2 segmenten (bridges). IGMP snooping moet aan staan op ons IPTV LAN.
