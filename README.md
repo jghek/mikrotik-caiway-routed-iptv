@@ -19,6 +19,7 @@ De Genexis SFP module werkte niet in de Mikrotik. Ik heb het opgelost door de SP
 
 # Netwerkinrichting
 Ik heb mijn netwerk als volgt ingericht.
+
 | VLAN | Netwerk | Beschrijving |
 | --- | --- | --- |
 | 10 | 10.218.0.1/16 | Mijn netwerk voor kinderen en gasten. Gebruikt OpenDNS servers om ongewenste inhoud te filteren en een /16 reeks om veel DHCP leases aan te kunnen. |
