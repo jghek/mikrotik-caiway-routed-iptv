@@ -5,7 +5,7 @@ Deze basis-configuratie gebruik ik op een [CCR1009-7G-1C-1S+ Mikrotik Cloud Core
 Dit is niet simpel. De standaard Genexis router is vrij beperkt, maar de meeste dingen kun je er prima mee doen. Als je deze router wilt vervangen, kun je dat doen omdat jouw netwerkconfiguratie wat meer vereist (tunnels, meerdere lokale netwerken, dual/fallback isp), of omdat dubbel NAT gewoon jeukt en je het net erg vind dat je vrienden je een beetje raar vinden. Je dient wel het één en ander van netwerken te begrijpen. Anders niet aan beginnen.
 
 # Wat levert CAIWAY
-CAIWAY levert een [GENEXIS Platinum 7840](https://nl.hardware.info/routers.9/genexis-genexis-platinum-7840.534715) router. Deze zit op de glas aangesloten met een [Genexis SFP module (1Gb/s)](https://en.wikipedia.org/wiki/Small_form-factor_pluggable_transceiver). Deze SFP zit verstopt op de achterkant achter een klepje met een blauwe garantie sticker. Op de verbinding leveren ze twee VLANs:
+CAIWAY levert een [GENEXIS Platinum 7840](https://nl.hardware.info/routers.9/genexis-genexis-platinum-7840.534715) router. Deze zit op de glas aangesloten met een SC connector op een [Genexis SFP module (1Gb/s)](https://en.wikipedia.org/wiki/Small_form-factor_pluggable_transceiver). Deze SFP zit verstopt op de achterkant achter een klepje met een blauwe garantie sticker. Op de verbinding leveren ze twee VLANs:
 
 | VLAN | Techniek | Beschrijving |
 | --- | --- | --- |
